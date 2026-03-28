@@ -19,10 +19,10 @@ const openai = new OpenAI({
 
 // 3. Minecraft Bot Configuration
 const botArgs = {
-    host: 'AapkaServer.aternos.me', // <--- Yahan apna Aternos IP daalo
-    port: 25565,                   // Aternos ka port (check kar lena)
-    username: 'AI_Dost_Ashish',    // Bot ka naam
-    version: '1.20.1'              // Apne server ka version check karlo
+    host: 'errormc02.aternos.me', // <--- Yahan apna Aternos IP daalo
+    port: 54990,                   // Aternos ka port (check kar lena)
+    username: 'SunShinerAI',    // Bot ka naam
+    version: '1.21.11'              // Apne server ka version check karlo
 };
 
 let bot;
