@@ -1,7 +1,13 @@
 const express = require('express');
 const app = express();
-app.get('/', (req, res) => res.send('Bot is Alive!'));
-app.listen(3000); // Render ko khush rakhne ke liye port
+const port = process.env.PORT || 3000;
 
-const mineflayer = require('mineflayer');
-// Yahan aapka bot connection logic (Aternos IP/Port) aayega
+app.get('/', (req, res) => {
+  res.send('AI Dost is Online and Grinding!');
+});
+
+app.listen(port, () => {
+  console.log(`Web server running on port ${port}`);
+});
+
+// Iske neeche aapka Mineflayer aur AI ka poora code aayega...
