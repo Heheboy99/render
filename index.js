@@ -22,7 +22,7 @@ function createBot() {
     const bot = mineflayer.createBot({
         host: 'errormc02.aternos.me', // <-- change this to your server IP or hostname
         port: 54990,            // default Minecraft port
-        username: 'AlwaysChill',          // your bot name
+        username: 'Do your work',          // your bot name
         // password: '',         // if using Microsoft account
         version: '1.21.11'       // server version
     })
